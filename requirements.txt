@@ -1,0 +1,23 @@
+# Dependency specification for
+# "Predicting Lung Cancer Risk: A Machine Learning Approach Using Lifestyle and Health Indicators"
+# Avinash Pilania (25929861) — MSc Artificial Intelligence, Manchester Metropolitan University
+#
+# Executed under Python 3.13.15.
+# Versions below are pinned to those reported by the executed notebook.
+
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.6.1
+xgboost==3.4.1
+
+# Plotting, statistics, explainability and carbon tracking.
+# These were not version-printed by the notebook, so minimum compatible
+# versions are specified rather than exact pins.
+matplotlib>=3.8
+scipy>=1.11
+statsmodels>=0.14
+shap>=0.44
+codecarbon>=2.3
+
+# Notebook runtime (only needed to open and execute the .ipynb locally)
+jupyter>=1.0
